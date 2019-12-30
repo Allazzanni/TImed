@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34357D9623BA6CC0009B23CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34357D9523BA6CC0009B23CF /* AppDelegate.swift */; };
+		34357D9823BA6CC0009B23CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34357D9723BA6CC0009B23CF /* SceneDelegate.swift */; };
+		34357D9B23BA6CC0009B23CF /* TImed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34357D9923BA6CC0009B23CF /* TImed.xcdatamodeld */; };
+		34357D9D23BA6CC0009B23CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34357D9C23BA6CC0009B23CF /* ContentView.swift */; };
+		34357D9F23BA6CC4009B23CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34357D9E23BA6CC4009B23CF /* Assets.xcassets */; };
+		34357DA223BA6CC4009B23CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34357DA123BA6CC4009B23CF /* Preview Assets.xcassets */; };
+		34357DA523BA6CC4009B23CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34357DA323BA6CC4009B23CF /* LaunchScreen.storyboard */; };
+		34357DB023BA6CC4009B23CF /* TImedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34357DAF23BA6CC4009B23CF /* TImedTests.swift */; };
+		34357DBB23BA6CC4009B23CF /* TImedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34357DBA23BA6CC4009B23CF /* TImedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34357DAC23BA6CC4009B23CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34357D8A23BA6CC0009B23CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34357D9123BA6CC0009B23CF;
+			remoteInfo = TImed;
+		};
+		34357DB723BA6CC4009B23CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34357D8A23BA6CC0009B23CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34357D9123BA6CC0009B23CF;
+			remoteInfo = TImed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34357D9223BA6CC0009B23CF /* TImed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TImed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34357D9523BA6CC0009B23CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34357D9723BA6CC0009B23CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34357D9A23BA6CC0009B23CF /* TImed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TImed.xcdatamodel; sourceTree = "<group>"; };
+		34357D9C23BA6CC0009B23CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34357D9E23BA6CC4009B23CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34357DA123BA6CC4009B23CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34357DA423BA6CC4009B23CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34357DA623BA6CC4009B23CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34357DAB23BA6CC4009B23CF /* TImedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34357DAF23BA6CC4009B23CF /* TImedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImedTests.swift; sourceTree = "<group>"; };
+		34357DB123BA6CC4009B23CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34357DB623BA6CC4009B23CF /* TImedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34357DBA23BA6CC4009B23CF /* TImedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImedUITests.swift; sourceTree = "<group>"; };
+		34357DBC23BA6CC4009B23CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34357D8F23BA6CC0009B23CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34357DA823BA6CC4009B23CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34357DB323BA6CC4009B23CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34357D8923BA6CC0009B23CF = {
+			isa = PBXGroup;
+			children = (
+				34357D9423BA6CC0009B23CF /* TImed */,
+				34357DAE23BA6CC4009B23CF /* TImedTests */,
+				34357DB923BA6CC4009B23CF /* TImedUITests */,
+				34357D9323BA6CC0009B23CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34357D9323BA6CC0009B23CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34357D9223BA6CC0009B23CF /* TImed.app */,
+				34357DAB23BA6CC4009B23CF /* TImedTests.xctest */,
+				34357DB623BA6CC4009B23CF /* TImedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34357D9423BA6CC0009B23CF /* TImed */ = {
+			isa = PBXGroup;
+			children = (
+				34357D9523BA6CC0009B23CF /* AppDelegate.swift */,
+				34357D9723BA6CC0009B23CF /* SceneDelegate.swift */,
+				34357D9C23BA6CC0009B23CF /* ContentView.swift */,
+				34357D9E23BA6CC4009B23CF /* Assets.xcassets */,
+				34357DA323BA6CC4009B23CF /* LaunchScreen.storyboard */,
+				34357DA623BA6CC4009B23CF /* Info.plist */,
+				34357D9923BA6CC0009B23CF /* TImed.xcdatamodeld */,
+				34357DA023BA6CC4009B23CF /* Preview Content */,
+			);
+			path = TImed;
+			sourceTree = "<group>";
+		};
+		34357DA023BA6CC4009B23CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34357DA123BA6CC4009B23CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34357DAE23BA6CC4009B23CF /* TImedTests */ = {
+			isa = PBXGroup;
+			children = (
+				34357DAF23BA6CC4009B23CF /* TImedTests.swift */,
+				34357DB123BA6CC4009B23CF /* Info.plist */,
+			);
+			path = TImedTests;
+			sourceTree = "<group>";
+		};
+		34357DB923BA6CC4009B23CF /* TImedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34357DBA23BA6CC4009B23CF /* TImedUITests.swift */,
+				34357DBC23BA6CC4009B23CF /* Info.plist */,
+			);
+			path = TImedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34357D9123BA6CC0009B23CF /* TImed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34357DBF23BA6CC4009B23CF /* Build configuration list for PBXNativeTarget "TImed" */;
+			buildPhases = (
+				34357D8E23BA6CC0009B23CF /* Sources */,
+				34357D8F23BA6CC0009B23CF /* Frameworks */,
+				34357D9023BA6CC0009B23CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TImed;
+			productName = TImed;
+			productReference = 34357D9223BA6CC0009B23CF /* TImed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34357DAA23BA6CC4009B23CF /* TImedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34357DC223BA6CC4009B23CF /* Build configuration list for PBXNativeTarget "TImedTests" */;
+			buildPhases = (
+				34357DA723BA6CC4009B23CF /* Sources */,
+				34357DA823BA6CC4009B23CF /* Frameworks */,
+				34357DA923BA6CC4009B23CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34357DAD23BA6CC4009B23CF /* PBXTargetDependency */,
+			);
+			name = TImedTests;
+			productName = TImedTests;
+			productReference = 34357DAB23BA6CC4009B23CF /* TImedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34357DB523BA6CC4009B23CF /* TImedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34357DC523BA6CC4009B23CF /* Build configuration list for PBXNativeTarget "TImedUITests" */;
+			buildPhases = (
+				34357DB223BA6CC4009B23CF /* Sources */,
+				34357DB323BA6CC4009B23CF /* Frameworks */,
+				34357DB423BA6CC4009B23CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34357DB823BA6CC4009B23CF /* PBXTargetDependency */,
+			);
+			name = TImedUITests;
+			productName = TImedUITests;
+			productReference = 34357DB623BA6CC4009B23CF /* TImedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34357D8A23BA6CC0009B23CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Matthew McAvey";
+				TargetAttributes = {
+					34357D9123BA6CC0009B23CF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					34357DAA23BA6CC4009B23CF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 34357D9123BA6CC0009B23CF;
+					};
+					34357DB523BA6CC4009B23CF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 34357D9123BA6CC0009B23CF;
+					};
+				};
+			};
+			buildConfigurationList = 34357D8D23BA6CC0009B23CF /* Build configuration list for PBXProject "TImed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34357D8923BA6CC0009B23CF;
+			productRefGroup = 34357D9323BA6CC0009B23CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34357D9123BA6CC0009B23CF /* TImed */,
+				34357DAA23BA6CC4009B23CF /* TImedTests */,
+				34357DB523BA6CC4009B23CF /* TImedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34357D9023BA6CC0009B23CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34357DA523BA6CC4009B23CF /* LaunchScreen.storyboard in Resources */,
+				34357DA223BA6CC4009B23CF /* Preview Assets.xcassets in Resources */,
+				34357D9F23BA6CC4009B23CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34357DA923BA6CC4009B23CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34357DB423BA6CC4009B23CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34357D8E23BA6CC0009B23CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34357D9B23BA6CC0009B23CF /* TImed.xcdatamodeld in Sources */,
+				34357D9623BA6CC0009B23CF /* AppDelegate.swift in Sources */,
+				34357D9D23BA6CC0009B23CF /* ContentView.swift in Sources */,
+				34357D9823BA6CC0009B23CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34357DA723BA6CC4009B23CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34357DB023BA6CC4009B23CF /* TImedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34357DB223BA6CC4009B23CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34357DBB23BA6CC4009B23CF /* TImedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34357DAD23BA6CC4009B23CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34357D9123BA6CC0009B23CF /* TImed */;
+			targetProxy = 34357DAC23BA6CC4009B23CF /* PBXContainerItemProxy */;
+		};
+		34357DB823BA6CC4009B23CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34357D9123BA6CC0009B23CF /* TImed */;
+			targetProxy = 34357DB723BA6CC4009B23CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34357DA323BA6CC4009B23CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34357DA423BA6CC4009B23CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34357DBD23BA6CC4009B23CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34357DBE23BA6CC4009B23CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34357DC023BA6CC4009B23CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TImed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TImed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcavey.matt.TImed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34357DC123BA6CC4009B23CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TImed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TImed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcavey.matt.TImed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34357DC323BA6CC4009B23CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TImedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcavey.matt.TImedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TImed.app/TImed";
+			};
+			name = Debug;
+		};
+		34357DC423BA6CC4009B23CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TImedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcavey.matt.TImedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TImed.app/TImed";
+			};
+			name = Release;
+		};
+		34357DC623BA6CC4009B23CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TImedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcavey.matt.TImedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TImed;
+			};
+			name = Debug;
+		};
+		34357DC723BA6CC4009B23CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TImedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcavey.matt.TImedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TImed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34357D8D23BA6CC0009B23CF /* Build configuration list for PBXProject "TImed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34357DBD23BA6CC4009B23CF /* Debug */,
+				34357DBE23BA6CC4009B23CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34357DBF23BA6CC4009B23CF /* Build configuration list for PBXNativeTarget "TImed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34357DC023BA6CC4009B23CF /* Debug */,
+				34357DC123BA6CC4009B23CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34357DC223BA6CC4009B23CF /* Build configuration list for PBXNativeTarget "TImedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34357DC323BA6CC4009B23CF /* Debug */,
+				34357DC423BA6CC4009B23CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34357DC523BA6CC4009B23CF /* Build configuration list for PBXNativeTarget "TImedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34357DC623BA6CC4009B23CF /* Debug */,
+				34357DC723BA6CC4009B23CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34357D9923BA6CC0009B23CF /* TImed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34357D9A23BA6CC0009B23CF /* TImed.xcdatamodel */,
+			);
+			currentVersion = 34357D9A23BA6CC0009B23CF /* TImed.xcdatamodel */;
+			path = TImed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34357D8A23BA6CC0009B23CF /* Project object */;
+}
