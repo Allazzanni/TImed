@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "FA7379FE-0D1A-45B0-B85E-047633F93DB4",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TImed.xcodeproj",
+        "identifier" : "34357DAA23BA6CC4009B23CF",
+        "name" : "TImedTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TImed.xcodeproj",
+        "identifier" : "34357DB523BA6CC4009B23CF",
+        "name" : "TImedUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

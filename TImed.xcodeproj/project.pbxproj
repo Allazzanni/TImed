@@ -54,6 +54,8 @@
 		34357DB623BA6CC4009B23CF /* TImedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34357DBA23BA6CC4009B23CF /* TImedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImedUITests.swift; sourceTree = "<group>"; };
 		34357DBC23BA6CC4009B23CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34357DCA23BA742F009B23CF /* AtDesk.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AtDesk.xctestplan; sourceTree = "<group>"; };
+		34357DCB23BA7447009B23CF /* All.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = All.xctestplan; sourceTree = "<group>"; };
 		AC5E00D3B4B340F63F64E64C /* Pods-TImed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImed.debug.xcconfig"; path = "Target Support Files/Pods-TImed/Pods-TImed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		34357D8923BA6CC0009B23CF = {
 			isa = PBXGroup;
 			children = (
+				34357DC923BA7417009B23CF /* TestPlans */,
 				34357D9423BA6CC0009B23CF /* TImed */,
 				34357DAE23BA6CC4009B23CF /* TImedTests */,
 				34357DB923BA6CC4009B23CF /* TImedUITests */,
@@ -144,6 +147,15 @@
 				34357DBC23BA6CC4009B23CF /* Info.plist */,
 			);
 			path = TImedUITests;
+			sourceTree = "<group>";
+		};
+		34357DC923BA7417009B23CF /* TestPlans */ = {
+			isa = PBXGroup;
+			children = (
+				34357DCA23BA742F009B23CF /* AtDesk.xctestplan */,
+				34357DCB23BA7447009B23CF /* All.xctestplan */,
+			);
+			path = TestPlans;
 			sourceTree = "<group>";
 		};
 		EC8DB1642A630F9732C4B297 /* Frameworks */ = {

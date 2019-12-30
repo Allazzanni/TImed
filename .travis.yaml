@@ -1,0 +1,4 @@
+language: swift
+xcode_project: TImed.xcodeproj # path to your xcodeproj folder
+xcode_scheme: TImed
+xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone X
